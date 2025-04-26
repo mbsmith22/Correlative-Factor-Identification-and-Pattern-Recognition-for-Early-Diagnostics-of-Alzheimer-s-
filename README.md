@@ -66,3 +66,8 @@ Alheimer's is neurologically deterioative progressive disease and one of the top
 There are 4 files contained in the zip files of this project. There is a jupyter notebook zip as jupter is best for the graphs and visualizations. The zip contain the dataset, PCA and Correlative Factor Analysis, Machine Learning Algorithms, and Graphs and Statistical Analysis. 
 
 ## Files
+Files are included in this repository and labeled: Alzheimers_Final_Code.zip
+
+## Running the code
+To run this code: download the files, open jupyter notebook, nagivate to where you want to store the files, go to the "Upload" button at the top and select the zip file and 
+To run this code simply 
