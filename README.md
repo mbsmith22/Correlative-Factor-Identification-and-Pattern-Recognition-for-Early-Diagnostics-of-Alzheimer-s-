@@ -1,10 +1,15 @@
 # Correlative Factor Identification and Pattern Recognition for Early Diagnostics of Alzheimer's Using Demographic, Clinical, Symptomatic, and Historical Data
 
 ## Project Object Goal
-This project aims to statistically analyze and correlate medical history, demographics, clinical evaluations, and symptoms to recognize patterns that are indicative of an Alzheimer's diagnosis in hopes of providing a tool that helps in diagnosing earlier to aid in the mitigation of symptoms and even potentially alter or discontinue the disease progression. The aim and hope of this project is that, with an examination, a solution can be provided that will lead to more research that could aid in treatment and alleviate some of the burden that the disease causes. 
+This project aims to statistically analyze and correlate medical history, demographics, clinical evaluations, and symptoms to recognize patterns that are indicative of an Alzheimer's diagnosis in hopes of providing a tool that aids in earlier diagnosing to help in the mitigation of symptoms and even potentially alter or discontinue the disease progression. The aim and hope of this project is that, with an examination, a solution can be provided that will lead to more research that could aid in treatment and alleviate some of the burden that the disease causes. 
 
 ## Dataset Outline
-There is an extensive evaluation of health for 2149 patients with 35 columns of information – 33 about health, 1 to identify patients, and one of redacted confidential information. The dataset contains historical, clinical, cognitive, symptomatic, and confidential and diagnostic information. There is a patient identification number ranging from 4751 – 6900 used to individualize the patients. 
+
+Dataset Ciation and Source: 
+Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
+
+- Patient total: 2149
+- Column total: 35
 
 Demographics contain:
 *	Age (60 – 90 years)
@@ -56,28 +61,47 @@ Diagnostic Results:
 Confidential Information
 *	DoctorInCharge (all patients have “XXXConfid”)
 
-Dataset Ciation: 
-Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
 
 ## Problem Statement
-Alheimer's is neurologically deterioative progressive disease and one of the top 10 causes of death. Early detection is vital in patient outcome improvement, but the current methods of diagnosis are costly, not accessible for all, and invasive. This project analyzes medical histoey, lifestle factors, demographics, clinical assessments and clinical evaluations from a inclusively extensive dataset for pattern identification of linkages to Alzheimer's disease diagnosis.
+Alzheimer’s is a neurodegenerative, progressive disease and one of the top 10 causes of death. Early detection is vital in patient outcome improvement, but the current methods of diagnosis are costly, not accessible to all, and invasive. This project analyzes medical history, lifestyle factors, demographics, clinical assessments, and clinical evaluations from an extensive dataset for pattern identification of linkages to Alzheimer's disease diagnosis.
 
 ## Structure
-There are 4 files contained in the folder files of this project. There is a folder of jupyter notebooks as jupyter is best for the graphs and visualizations. The folder contain the dataset, PCA and Correlative Factor Analysis, Machine Learning Algorithms, and Graphs and Statistical Analysis. 
+📁 Alzheimers_Code/ <br /> 
+├── alzheimers_disease_data.csv/ <br />
+├── PCA and Correlative Analysis.ipynb/ <br />
+├── ML_Algorithms.ipynb / <br />
+└── Graphs and Data.ipynb / <br />
+
+Note:  Jupyter Notebooks are best for visualizations and interactiveness for coding and graphs. 
+Code can be download as .py (Python) files from Jupyter if needed. 
 
 ## Files
 Files are included in this repository and labeled: Alzheimers_Code
+
 The order of the files is:
-* the dataset needs to be loaded in first for the other files to run
-1. PCA and Correlative Analysis
-2. StatAnalysis
-3. Graphs and Data
+* The dataset needs to be loaded first for the other files to run
+1. alzheimers_disease_data.csv – must be loaded first
+2. PCA and Correlative Analysis.ipynb
+3. ML_Algorithms.ipynb
+4. Graphs and Data.ipynb
+
+*This is the file execution order for how the code was created and should be run. 
 
 ## Running the code
-To run this code: download the files, open jupyter notebook, nagivate to where you want to store the files, go to the "Upload" button at the top and select the folder file or upload the files one by one and insert them.
-The dataset needs to be loaded in first for the other files to run.
-The code is set in blocks for each part of the code that does specific items and press the ⏵ button or navigate to the top of notebook, select run and specify how you would like the cells to be ran. 
+To run this code: 
+1. Download the files from the repository or clone them
+2. Open Jupyter notebook and navigate to where you want to store the files
+3. Go to the "Upload" button at the top, and select the folder file or upload the files one by one and insert them.
+*The dataset needs to be loaded first for the other files to run.
+4. The code is set in blocks for each part of the code that does specific tasks and press the ⏵ button or navigate to the top of the notebook, select run, and specify how you would like the cells to be run. 
 
-## Library note
-There are several libraries used in this project. Most are in the jupyter notebook application. If they are not run: !pip install {library name}
-Some libraries that needed to be installed are commented out, if the library is needed to run the code remove the # to uncomment the code and run the block. 
+## Libraries Used 
+Some common libraries that might need to be installed use the following command:/ <br />
+!pip install pandas matplotlib seaborn scikit-learn/ <br />
+There are several libraries used in this project. Most are in the Jupyter notebook application. If they are not run: !pip install {library name}/ <br />
+Some libraries that needed to be installed are commented out. If the library is needed to run the code, remove the # to uncomment the code and run the block. 
+
+## Contact / Author
+Project by Madison B. Smith/ <br />
+All code written by ChatGPT - comments mostly my own. / <br />
+Feel free to reach out via GitHub Issues or discussions for any questions. / <br />
