@@ -63,11 +63,21 @@ Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kagg
 Alheimer's is neurologically deterioative progressive disease and one of the top 10 causes of death. Early detection is vital in patient outcome improvement, but the current methods of diagnosis are costly, not accessible for all, and invasive. This project analyzes medical histoey, lifestle factors, demographics, clinical assessments and clinical evaluations from a inclusively extensive dataset for pattern identification of linkages to Alzheimer's disease diagnosis.
 
 ## Structure
-There are 4 files contained in the zip files of this project. There is a jupyter notebook zip as jupter is best for the graphs and visualizations. The zip contain the dataset, PCA and Correlative Factor Analysis, Machine Learning Algorithms, and Graphs and Statistical Analysis. 
+There are 4 files contained in the folder files of this project. There is a folder of jupyter notebooks as jupyter is best for the graphs and visualizations. The folder contain the dataset, PCA and Correlative Factor Analysis, Machine Learning Algorithms, and Graphs and Statistical Analysis. 
 
 ## Files
-Files are included in this repository and labeled: Alzheimers_Final_Code.zip
+Files are included in this repository and labeled: Alzheimers_Code
+The order of the files is:
+* the dataset needs to be loaded in first for the other files to run
+1. PCA and Correlative Analysis
+2. StatAnalysis
+3. Graphs and Data
 
 ## Running the code
-To run this code: download the files, open jupyter notebook, nagivate to where you want to store the files, go to the "Upload" button at the top and select the zip file and 
-To run this code simply 
+To run this code: download the files, open jupyter notebook, nagivate to where you want to store the files, go to the "Upload" button at the top and select the folder file or upload the files one by one and insert them.
+The dataset needs to be loaded in first for the other files to run.
+The code is set in blocks for each part of the code that does specific items and press the ⏵ button or navigate to the top of notebook, select run and specify how you would like the cells to be ran. 
+
+## Library note
+There are several libraries used in this project. Most are in the jupyter notebook application. If they are not run: !pip install {library name}
+Some libraries that needed to be installed are commented out, if the library is needed to run the code remove the # to uncomment the code and run the block. 
